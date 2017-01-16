@@ -43,9 +43,9 @@ public class PDFViewManager extends SimpleViewManager<PDFView> implements OnPage
 
     @Override
     public PDFView createViewInstance(ThemedReactContext context) {
-        if (pdfView == null){
+        //if (pdfView == null){
             pdfView = new PDFView(context, null);
-        }
+        //}
         return pdfView;
         //return new PDFView(context, null);
     }
